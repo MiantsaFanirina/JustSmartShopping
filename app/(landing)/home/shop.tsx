@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductCard from "../../../../components/productCard";
+import ProductCard from "./productCard";
 
 const products = [
     {
@@ -67,7 +67,7 @@ const Shop = () => {
                     className="flex
                     lg:grid gap-6 md:gap-12 px-2 md:px-10 xl:px-12 2xl:px-20
                     md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4
-                    pb-12
+                    pb-8
                     overflow-x-auto w-full
                     snap-x snap-proximity scroll-smooth no-scrollbar"
                 >
@@ -75,6 +75,8 @@ const Shop = () => {
                         <ProductCard key={product.id} {...product} />
                     ))}
                 </div>
+
+                <a href={'/shop'} className={'btn btn-primary md:btn-lg'}>Achetez dès maintenant</a>
             </div>
         </div>
     );

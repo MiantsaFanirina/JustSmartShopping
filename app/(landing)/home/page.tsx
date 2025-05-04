@@ -1,7 +1,9 @@
 import React from 'react';
-import Home from "./_components/home";
-import Features from "./_components/features";
-import Shop from "./_components/shop";
+import Home from "./home";
+import Features from "./features";
+import Shop from "./shop";
+import Testimonial from "./testimonial";
+import JoinUs from "./joinUs";
 
 const Page = () => {
     return (
@@ -9,6 +11,8 @@ const Page = () => {
             <Home/>
             <Features/>
             <Shop/>
+            <Testimonial/>
+            <JoinUs/>
         </div>
     );
 };

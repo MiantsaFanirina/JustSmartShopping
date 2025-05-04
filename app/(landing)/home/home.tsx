@@ -4,7 +4,7 @@ import {MdOutlineChat, MdOutlineStars} from "react-icons/md";
 
 const Home = () => {
     return (
-        <div className={'relative w-[100vw] h-[90vh] md:h-[80vh] bg-black'}>
+        <div className={'relative mt-16 md:mt-0 w-[100vw] h-[87vh] md:h-[80vh] bg-black'}>
             <Image
                 src={"/hero.jpg"}
                 alt={"hero banner"}
@@ -12,7 +12,7 @@ const Home = () => {
                 height={720}
                 className={'w-full h-full object-cover object-center opacity-50 absolute left-0 top-0'}
             />
-            <div className={'w-full h-full px-3 md:px-20 gap-12 flex flex-col justify-center items-center absolute left-0 top-0'}>
+            <div className={'w-full h-full px-3 md:px-20 gap-6 md:gap-12 flex flex-col justify-center items-center absolute left-0 top-0'}>
                 <div className={'flex flex-col md:w-2/3 gap-3 items-center '}>
                     <Image
                         src={"/logo.png"}
