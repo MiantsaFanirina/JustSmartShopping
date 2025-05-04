@@ -11,6 +11,6 @@ export const usePasswordConfirmation = () => {
         setError(null);
         return true;
     };
-
+    
     return { isConfirmed, error };
 };

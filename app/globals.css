@@ -1,4 +1,21 @@
 @import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@theme {
+  --color-primary: #0a3981;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
