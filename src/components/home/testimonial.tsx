@@ -6,7 +6,7 @@ const testimonials = [
         name: "John Doe",
         role: "CEO at Example Corp",
         testimonial:
-            "JustSmartShopping transformed the way I shop. The AI-powered product suggestions and price comparison are game changers!",
+            "JustSmartShopping transformed the way I shop. The AI-powered shop suggestions and price comparison are game changers!",
         rating: 5,
     },
     {

@@ -1,14 +1,14 @@
 import React from 'react';
-import Home from "./home";
-import Features from "./features";
-import Shop from "./shop";
-import Testimonial from "./testimonial";
-import JoinUs from "./joinUs";
+import Hero from "@/components/home/hero";
+import Features from "@/components/home/features";
+import Shop from "@/components/home/shop";
+import Testimonial from "@/components/home/testimonial";
+import JoinUs from "@/components/home/joinUs";
 
 const Page = () => {
     return (
         <div className={'flex flex-col overflow-x-hidden'}>
-            <Home/>
+            <Hero/>
             <Features/>
             <Shop/>
             <Testimonial/>

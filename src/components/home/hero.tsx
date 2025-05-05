@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import {MdOutlineChat, MdOutlineStars} from "react-icons/md";
 
-const Home = () => {
+const Hero = () => {
     return (
         <div className={'relative mt-16 md:mt-0 w-[100vw] h-[87vh] md:h-[80vh] bg-black'}>
             <Image
@@ -63,4 +63,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Hero;

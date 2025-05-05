@@ -12,7 +12,8 @@ import {
     FaStar,
 } from "react-icons/fa";
 import { usePathname } from "next/navigation";
-import SearchBar from "./searchBar";
+import SearchBar from "@/components/searchBar";
+import Image from "next/image";
 
 const Navbar = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(true); // simulate auth
@@ -27,7 +28,7 @@ const Navbar = () => {
     const toggleMobileSearch = () => setMobileSearchOpen(!mobileSearchOpen);
 
     const navLinks = [
-        { name: "Accueil", path: "/" },
+        { name: "Accueil", path: "/home" },
         { name: "Blog", path: "/blog" },
         { name: "Boutique", path: "/shop" },
     ];
@@ -46,7 +47,9 @@ const Navbar = () => {
                         {menuOpen ? <FaTimes className="text-lg" /> : <FaBars className="text-lg" />}
                     </button>
                     {/* LOGO */}
-                    <div className="w-10 h-10 bg-gray-300 rounded-lg" />
+                    <a href={'/home'} className="w-16 h-10 rounded-lg flex items-center">
+                        <Image src={'/logo.png'} alt={'logo'} width={1080} height={7200} className={'w-full object-cover object-center'} />
+                    </a>
                 </div>
 
                 {/* CENTER MENU DESKTOP */}
