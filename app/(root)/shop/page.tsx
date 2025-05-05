@@ -1,6 +1,5 @@
 import {Pagination} from "@/components/shop/pagination";
 import {FilterSidebar} from "@/components/shop/filterSidebar";
-import {FilterBadgeList} from "@/components/shop/filterBadgeList";
 
 export default function Home() {
     return (

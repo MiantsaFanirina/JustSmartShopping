@@ -1,27 +1,12 @@
 import { create } from 'zustand';
+import {FilterState} from "@/features/shop/shop.type";
 
-type SortType = string;
-type SellerType = string | null;
 
-interface FilterState {
-    category: string | null;
-    search: string;
-    sort: SortType;
-    seller: SellerType;
-    price: [number, number];
-    selectedFilters: string[];
-    setCategory: (cat: string | null) => void;
-    setSearch: (search: string) => void;
-    setSort: (sort: SortType) => void;
-    setSeller: (seller: SellerType) => void;
-    setPrice: (price: [number, number]) => void;
-    removeFilter: (filter: string) => void;
-}
 
 export const useFilterStore = create<FilterState>((set) => ({
     category: null,
-    search: '',
-    sort: 'pertinent',
+    search: null,
+    sort: 'all',
     seller: null,
     price: [0, 1000],
     selectedFilters: [],
@@ -78,7 +63,7 @@ export const useFilterStore = create<FilterState>((set) => ({
             };
 
             if (filter.startsWith('category:')) newState.category = null;
-            if (filter.startsWith('sort:')) newState.sort = 'pertinent';
+            if (filter.startsWith('sort:')) newState.sort = 'all';
             if (filter.startsWith('seller:')) newState.seller = null;
             if (filter.startsWith('price:')) newState.price = [0, 1000];
 

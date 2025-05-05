@@ -5,28 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9a2dcb-85b9-43c0-befc-afca0418c3cd" name="Changes" comment="Shop page">
-      <change afterPath="$PROJECT_DIR$/app/(root)/blog/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/shop/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterBadgeList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterCategory.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterPrice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterSeller.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterSidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/filterSort.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shop/pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/shop/shop.state.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shop/stars.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/shop/shop.hook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/shop/shop.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/shop/test/products.data.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/features.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/joinUs.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/productCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/shop.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(landing)/home/testimonial.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/searchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/shop/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/shop/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/shop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/filterBadgeList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/filterCategory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop/filterCategory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/filterPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop/filterPrice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/filterSeller.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop/filterSeller.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/filterSort.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop/filterSort.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shop/productCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop/productCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/shop/shop.state.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/shop/shop.state.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +84,11 @@
       <recent name="C:\Users\miant\OneDrive\Documents\DEV\Finli\web\app\(auth)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\features\shop" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\components\shop" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\components\shop\test" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\features\shop\test" />
       <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\components" />
-      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src" />
-      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\src\components\product" />
-      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\components\home" />
-      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\components" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -140,6 +132,7 @@
       <workItem from="1746362373071" duration="608000" />
       <workItem from="1746363041787" duration="257000" />
       <workItem from="1746363323029" duration="10709000" />
+      <workItem from="1746459024528" duration="4422000" />
     </task>
     <task id="LOCAL-00001" summary="User validation features using axios and react query">
       <option name="closed" value="true" />

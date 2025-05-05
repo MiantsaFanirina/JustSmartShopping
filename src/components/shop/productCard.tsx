@@ -1,24 +1,10 @@
 import React from 'react';
-import {
-    FaStar,
-    FaStarHalfAlt,
-    FaRegStar,
-} from 'react-icons/fa';
 import {TbShoppingCart} from "react-icons/tb";
+import {ProductCardProps} from "@/features/shop/shop.type";
+import Stars from "@/components/shop/stars";
+import Image from "next/image";
 
-interface ProductCardProps {
-    id: number;
-    img: string;
-    category: string;
-    name: string;
-    stars: number;
-    starsCount: number;
-    discountPrice: number;
-    price: number;
-    discount: number;
-    badge?: string;
-    scrapping?: string;
-}
+
 
 const ProductCard= ({
     img,
@@ -34,32 +20,16 @@ const ProductCard= ({
 } : ProductCardProps) => {
 
 
-    const renderStars = () => {
-        const fullStars = Math.floor(stars);
-        const hasHalfStar = stars % 1 !== 0;
-        const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-
-        return (
-            <div className="flex items-center gap-1 text-yellow-400">
-                {[...Array(fullStars)].map((_, i) => (
-                    <FaStar key={`full-${i}`} />
-                ))}
-                {hasHalfStar && <FaStarHalfAlt />}
-                {[...Array(emptyStars)].map((_, i) => (
-                    <FaRegStar key={`empty-${i}`} />
-                ))}
-                <span className="text-sm text-gray-500 ml-1">({starsCount})</span>
-            </div>
-        );
-    };
 
     return (
         <div  className="card min-w-[270px] snap-center relative w-full bg-base-100 shadow-xl hover:scale-[1.02] transition-transform duration-200">
             <figure className={'relative'}>
-                <img
+                <Image
                     src={img}
                     alt={name}
                     className="h-48 w-full object-cover"
+                    width={1080}
+                    height={720}
                 />
 
                 {badge && (
@@ -73,7 +43,7 @@ const ProductCard= ({
 
                 <span className="text-xs text-gray-400 mt-2">{category}</span>
                 <h2 className="card-title text-base max-w-2/3">{name}</h2>
-                {renderStars()}
+                <Stars stars={stars} starsCount={starsCount} />
 
                 <div className="flex items-center gap-2 mt-2">
                     <span className="text-xl font-bold text-primary">

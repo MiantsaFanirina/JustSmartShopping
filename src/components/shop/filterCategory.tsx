@@ -1,15 +1,16 @@
 "use client";
 import { useFilterStore } from "@/features/shop/shop.state";
 import { useState } from "react";
+import {categoryOption} from "@/features/shop/test/products.data";
 
-const categories = ["Tous", "Électronique", "Livres", "Vêtements", "Jouets"];
+
 
 export const FilterCategory = () => {
     const { category, setCategory } = useFilterStore();
     const [query, setQuery] = useState("");
     const [isFocused, setIsFocused] = useState(false);
 
-    const filtered = categories.filter((cat) =>
+    const filtered = categoryOption.filter((cat) =>
         cat.toLowerCase().includes(query.toLowerCase())
     );
 

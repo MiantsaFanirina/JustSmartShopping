@@ -1,20 +1,21 @@
 "use client";
 import { useFilterStore } from "@/features/shop/shop.state";
 import { useState } from "react";
+import {sellerOption} from "@/features/shop/test/products.data";
 
-const sellers = ["Tous", "Ce site", "Amazon", "Fnac"];
+
 
 export const FilterSeller = () => {
     const { seller, setSeller } = useFilterStore();
     const [query, setQuery] = useState("");
     const [isFocused, setIsFocused] = useState(false);
 
-    const filtered = sellers.filter((s) =>
+    const filtered = sellerOption.filter((s) =>
         s.toLowerCase().includes(query.toLowerCase())
     );
 
     const handleSelect = (value: string) => {
-        setSeller(value === "Tous" ? null : value);
+        setSeller(value === "all" ? null : value);
         setQuery("");
     };
 
