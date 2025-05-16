@@ -4,7 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26b64089-398b-40ef-a205-f4279e00ec0a" name="Changes" comment="first commit" />
+    <list default="true" id="8b380cb1-2281-4a4b-82bd-6474b85b4874" name="Changes" comment="Landing and chatbot UI">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/just-smart-shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/faq/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/common/chatbot.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/common/loading-screen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shop/product-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/accordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/alert-dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/alert.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/aspect-ratio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/breadcrumb.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/collapsible.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/command.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/context-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/drawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/hover-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/input-otp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/menubar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/navigation-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/progress.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/radio-group.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/resizable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/scroll-area.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/sheet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/sonner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/switch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/textarea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toggle-group.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/cta.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/featuredDeals.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/features.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/rewards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/landing/searchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mock-data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/auth-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/cart-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/compare-store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,31 +109,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MiantsaFanirina&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MiantsaFanirina/JustSmartShopping.git&quot;,
+    &quot;accountId&quot;: &quot;1a67a421-e133-4e7c-98a2-e1f2b37fde38&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2x9AnmKaorpXceYoouKT94Fazd3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2x9bMLbKAvI15NHj6fPN5IJhTAY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/miant/OneDrive/Documents/DEV/just-smart-shopping",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.11.0",
+    "javascript.nodejs.core.library.typings.version": "22.15.18",
+    "last_opened_file_path": "C:/Users/miant/OneDrive/Documents/DEV/just-smart-shopping/app/(auth)",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Program Files (x86)\\JetBrains\\WebStorm 2024.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\miant\\OneDrive\\Documents\\DEV\\just-smart-shopping\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\app\(auth)" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\app\(root)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\app\(auth)" />
+      <recent name="C:\Users\miant\OneDrive\Documents\DEV\just-smart-shopping\app\(root)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,23 +173,26 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26b64089-398b-40ef-a205-f4279e00ec0a" name="Changes" comment="" />
-      <created>1747340085294</created>
+      <changelist id="8b380cb1-2281-4a4b-82bd-6474b85b4874" name="Changes" comment="" />
+      <created>1747353188079</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747340085294</updated>
-      <workItem from="1747340086657" duration="893000" />
-      <workItem from="1747341005190" duration="5000" />
-      <workItem from="1747341010980" duration="16000" />
-      <workItem from="1747341034411" duration="399000" />
+      <updated>1747353188079</updated>
+      <workItem from="1747353189443" duration="327000" />
+      <workItem from="1747353524635" duration="3469000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/next.config.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Landing and chatbot UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing and chatbot UI" />
   </component>
 </project>
