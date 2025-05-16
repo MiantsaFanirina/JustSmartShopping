@@ -31,19 +31,19 @@ const FeaturedDeals = () => {
                             variants={fadeIn}
                             className="text-3xl font-bold mb-2"
                         >
-                            Meilleures Offres du Jour
+                            Today's Best Deals
                         </motion.h2>
                         <motion.p
                             variants={fadeIn}
                             className="text-muted-foreground"
                         >
-                            Offres sélectionnées avec les plus grandes économies sur internet.
+                            Curated deals with the biggest savings across the internet.
                         </motion.p>
                     </div>
                     <motion.div variants={fadeIn}>
                         <Link href="/shop">
                             <Button variant="link" className="group">
-                                Voir toutes les offres
+                                View all deals
                                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                             </Button>
                         </Link>
@@ -52,10 +52,10 @@ const FeaturedDeals = () => {
 
                 <Tabs defaultValue="all" className="w-full">
                     <TabsList>
-                        <TabsTrigger value="all">Toutes les offres</TabsTrigger>
-                        <TabsTrigger value="electronics">Électronique</TabsTrigger>
-                        <TabsTrigger value="fashion">Mode</TabsTrigger>
-                        <TabsTrigger value="home">Maison</TabsTrigger>
+                        <TabsTrigger value="all">All Deals</TabsTrigger>
+                        <TabsTrigger value="electronics">Electronics</TabsTrigger>
+                        <TabsTrigger value="fashion">Fashion</TabsTrigger>
+                        <TabsTrigger value="home">Home</TabsTrigger>
                     </TabsList>
 
                     <TabsContent value="all" className="pt-8">

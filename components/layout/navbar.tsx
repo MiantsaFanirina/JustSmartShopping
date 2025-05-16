@@ -83,7 +83,7 @@ export function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <ShoppingBag className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold font-poppins">JustSmartShopping</span>
+              <span className="text-xl font-bold font-poppins">JustShoppingSmart</span>
             </Link>
           </div>
 
@@ -179,8 +179,8 @@ export function Navbar() {
                   </DropdownMenuContent>
                 </DropdownMenu>
             ) : (
-                <Button onClick={toggleAuth} variant="default" size="sm">
-                  Se connecter
+                <Button variant="default" size="sm">
+                  <Link href={'/sign-in'}>Se connecter</Link>
                 </Button>
             )}
           </div>
@@ -210,7 +210,7 @@ export function Navbar() {
                   <div className="flex items-center justify-between py-4">
                     <Link href="/" className="flex items-center space-x-2">
                       <ShoppingBag className="h-5 w-5 text-primary" />
-                      <span className="text-lg font-bold">JustSmartShopping</span>
+                      <span className="text-lg font-bold">JustShoppingSmart</span>
                     </Link>
                     <Button variant="ghost" size="icon" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
                       {theme === 'dark' ? (
@@ -283,12 +283,8 @@ export function Navbar() {
                           </Button>
                         </>
                     ) : (
-                        <Button
-                            onClick={toggleAuth}
-                            variant="default"
-                            className="w-full"
-                        >
-                          Se connecter
+                        <Button variant="default" className={'w-full'}>
+                          <Link href={'/sign-in'}>Se connecter</Link>
                         </Button>
                     )}
                   </div>

@@ -66,7 +66,7 @@ export function LoadingScreen() {
                     transition={{ duration: 0.3, delay: 0.2 }}
                     className="text-2xl font-bold mb-2 font-poppins"
                 >
-                  JustSmartShopping
+                  JustShoppingSmart
                 </motion.h1>
 
                 <motion.p

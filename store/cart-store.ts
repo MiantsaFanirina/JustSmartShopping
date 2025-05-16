@@ -122,7 +122,7 @@ const useCartStore = create<CartState>()(
       },
     }),
     {
-      name: 'JustSmartShopping-cart-storage',
+      name: 'JustShoppingSmart-cart-storage',
     }
   )
 );

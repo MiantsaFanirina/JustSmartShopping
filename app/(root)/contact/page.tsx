@@ -75,7 +75,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-medium">Email</h3>
                         <p className="text-sm text-muted-foreground">
-                          support@JustSmartShopping.com
+                          support@JustShoppingSmart.com
                         </p>
                       </div>
                     </div>

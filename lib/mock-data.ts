@@ -465,14 +465,14 @@ export const PRODUCTS = [
 export const BLOG_POSTS = [
   {
     id: '1',
-    title: 'Comment Trouver les Meilleures Offres sur JustSmartShopping',
-    slug: 'comment-trouver-meilleures-offres-justsmartshopping',
-    excerpt: 'Découvrez nos astuces pour dénicher les prix les plus bas sur une large sélection de produits sur JustSmartShopping.',
+    title: 'Comment Trouver les Meilleures Offres sur JustShoppingSmart',
+    slug: 'comment-trouver-meilleures-offres-JustShoppingSmart',
+    excerpt: 'Découvrez nos astuces pour dénicher les prix les plus bas sur une large sélection de produits sur JustShoppingSmart.',
     content: `
-      <p>Faire du shopping en ligne peut vite devenir compliqué face à la multitude d'offres et de produits disponibles. Voici comment vous assurer de profiter des meilleures offres sur JustSmartShopping, votre plateforme de comparaison et d’achat affilié.</p>
+      <p>Faire du shopping en ligne peut vite devenir compliqué face à la multitude d'offres et de produits disponibles. Voici comment vous assurer de profiter des meilleures offres sur JustShoppingSmart, votre plateforme de comparaison et d’achat affilié.</p>
       
       <h2>1. Suivez l’historique des prix</h2>
-      <p>Avant d’acheter, consultez l’évolution du prix du produit. Cela vous permet de vérifier si la « promotion » actuelle est réellement avantageuse ou juste un coup marketing. JustSmartShopping automatise cette vérification pour vous !</p>
+      <p>Avant d’acheter, consultez l’évolution du prix du produit. Cela vous permet de vérifier si la « promotion » actuelle est réellement avantageuse ou juste un coup marketing. JustShoppingSmart automatise cette vérification pour vous !</p>
       
       <h2>2. Comparez plusieurs vendeurs</h2>
       <p>Les prix varient souvent d’un vendeur à un autre, même pour un même produit. Pensez à comparer au moins 3 à 5 offres différentes. N’oubliez pas de prendre en compte les frais de livraison, qui peuvent annuler une bonne affaire.</p>
@@ -482,7 +482,7 @@ export const BLOG_POSTS = [
       <ul>
         <li>Black Friday / Cyber Monday (novembre)</li>
         <li>Soldes de rentrée (août)</li>
-        <li>Journées spéciales JustSmartShopping (période spécifique)</li>
+        <li>Journées spéciales JustShoppingSmart (période spécifique)</li>
         <li>Fin de trimestre (mars, juin, septembre, décembre)</li>
       </ul>
       
@@ -490,9 +490,9 @@ export const BLOG_POSTS = [
       <p>Les modèles des années précédentes bénéficient souvent de baisses de prix importantes tout en offrant une qualité satisfaisante pour la majorité des utilisateurs.</p>
       
       <h2>5. Activez les alertes prix</h2>
-      <p>Avec JustSmartShopping, vous pouvez définir des alertes prix et être prévenu dès que le produit atteint le tarif souhaité.</p>
+      <p>Avec JustShoppingSmart, vous pouvez définir des alertes prix et être prévenu dès que le produit atteint le tarif souhaité.</p>
       
-      <p>En suivant ces conseils et en utilisant les outils JustSmartShopping, vous économiserez beaucoup sur vos achats en ligne.</p>
+      <p>En suivant ces conseils et en utilisant les outils JustShoppingSmart, vous économiserez beaucoup sur vos achats en ligne.</p>
     `,
     image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     author: {
@@ -506,11 +506,11 @@ export const BLOG_POSTS = [
   },
   {
     id: '2',
-    title: 'Maximisez vos Récompenses avec les Programmes de Fidélité JustSmartShopping',
+    title: 'Maximisez vos Récompenses avec les Programmes de Fidélité JustShoppingSmart',
     slug: 'maximisez-recompenses-programmes-fidelite',
-    excerpt: 'Apprenez à cumuler et utiliser vos points de fidélité pour tirer le meilleur parti des programmes JustSmartShopping.',
+    excerpt: 'Apprenez à cumuler et utiliser vos points de fidélité pour tirer le meilleur parti des programmes JustShoppingSmart.',
     content: `
-      <p>Les programmes de fidélité offrent de réels avantages, à condition de bien les utiliser. Voici comment optimiser vos gains avec les récompenses JustSmartShopping.</p>
+      <p>Les programmes de fidélité offrent de réels avantages, à condition de bien les utiliser. Voici comment optimiser vos gains avec les récompenses JustShoppingSmart.</p>
       
       <h2>Comprendre la valeur des points</h2>
       <p>Chaque point n’a pas la même valeur. Par exemple, 1000 points peuvent valoir 10€ chez un vendeur et seulement 5€ chez un autre. Calculez toujours la valeur réelle avant d’être tenté par une offre.</p>
@@ -520,7 +520,7 @@ export const BLOG_POSTS = [
       <ul>
         <li>Utilisez une carte de crédit avec cashback</li>
         <li>Passez par un portail de cashback</li>
-        <li>Gagnez des points de fidélité JustSmartShopping</li>
+        <li>Gagnez des points de fidélité JustShoppingSmart</li>
         <li>Appliquez des codes promo au moment du paiement</li>
       </ul>
       <p>Avec cette méthode, vous pouvez récupérer jusqu’à 15-25% du montant de vos achats sous forme de récompenses.</p>
@@ -529,10 +529,10 @@ export const BLOG_POSTS = [
       <p>Profitez des périodes de bonus pour convertir vos points en cadeaux ou réductions à leur meilleure valeur.</p>
       
       <h2>Surveillez la validité de vos points</h2>
-      <p>Les points JustSmartShopping n’expirent jamais, mais pensez à vérifier la durée de validité des autres programmes.</p>
+      <p>Les points JustShoppingSmart n’expirent jamais, mais pensez à vérifier la durée de validité des autres programmes.</p>
       
-      <h2>L’avantage JustSmartShopping</h2>
-      <p>Avec JustSmartShopping, vous cumulez des points à chaque achat, peu importe le vendeur, et vous pouvez les échanger contre des réductions ou des cartes cadeaux.</p>
+      <h2>L’avantage JustShoppingSmart</h2>
+      <p>Avec JustShoppingSmart, vous cumulez des points à chaque achat, peu importe le vendeur, et vous pouvez les échanger contre des réductions ou des cartes cadeaux.</p>
       
       <p>En appliquant ces conseils, vos achats deviennent rentables et vous économisez intelligemment au quotidien.</p>
     `,
@@ -550,7 +550,7 @@ export const BLOG_POSTS = [
     id: '3',
     title: 'Suivi de Prix vs Chasse aux Bons Plans : Quelle Stratégie Choisir ?',
     slug: 'suivi-prix-vs-chasse-bons-plans',
-    excerpt: 'Faut-il attendre une baisse précise ou profiter des offres en cours ? Découvrez quelle méthode vous fait vraiment économiser sur JustSmartShopping.',
+    excerpt: 'Faut-il attendre une baisse précise ou profiter des offres en cours ? Découvrez quelle méthode vous fait vraiment économiser sur JustShoppingSmart.',
     content: `
       <p>Pour économiser, les acheteurs adoptent deux approches principales : le suivi de prix et la chasse aux bons plans. Laquelle est la plus efficace ?</p>
       
@@ -573,11 +573,11 @@ export const BLOG_POSTS = [
       </ul>
       
       <h2>Notre analyse</h2>
-      <p>Après avoir étudié des milliers d’achats sur JustSmartShopping, nous constatons que les suiveurs économisent en moyenne 23% sur leurs produits ciblés, tandis que les chasseurs économisent 18% mais achètent plus souvent.</p>
+      <p>Après avoir étudié des milliers d’achats sur JustShoppingSmart, nous constatons que les suiveurs économisent en moyenne 23% sur leurs produits ciblés, tandis que les chasseurs économisent 18% mais achètent plus souvent.</p>
       
       <p>La meilleure stratégie ? Un mélange des deux : suivez les prix pour les achats importants et chassez les bons plans pour les besoins courants.</p>
       
-      <h2>JustSmartShopping vous accompagne</h2>
+      <h2>JustShoppingSmart vous accompagne</h2>
       <p>Notre plateforme vous permet de créer des alertes prix et de naviguer parmi les offres sélectionnées, pour une économie maximale selon votre style.</p>
       
       <p>Rappelez-vous : la meilleure méthode est celle qui s’adapte à vos besoins et à votre tempérament.</p>

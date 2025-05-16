@@ -24,7 +24,7 @@ const Features = () => {
                     variants={fadeIn}
                     className="text-3xl font-bold mb-4"
                 >
-                    Pourquoi choisir JustSmartShopping
+                    Pourquoi choisir JustShoppingSmart
                 </motion.h2>
                 <motion.p
                     variants={fadeIn}

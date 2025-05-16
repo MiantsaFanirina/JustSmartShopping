@@ -6,7 +6,7 @@ import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
 const Faq = () => {
     return (
         <div className={'min-h-screen bg-background py-12'}>
-            <div className={'container mx-auto px-20'}>
+            <div className={'container mx-auto px-4 md:px-20'}>
                 {/* FAQ Section */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

@@ -132,7 +132,7 @@ const useCompareStore = create<CompareState>()(
       },
     }),
     {
-      name: 'JustSmartShopping-compare-storage',
+      name: 'JustShoppingSmart-compare-storage',
     }
   )
 );

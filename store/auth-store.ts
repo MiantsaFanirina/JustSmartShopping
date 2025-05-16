@@ -112,7 +112,7 @@ const useAuthStore = create<AuthState>()(
       },
     }),
     {
-      name: 'JustSmartShopping-auth-storage',
+      name: 'JustShoppingSmart-auth-storage',
     }
   )
 );

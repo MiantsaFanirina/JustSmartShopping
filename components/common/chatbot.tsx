@@ -29,7 +29,7 @@ export function Chatbot() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: 'Bonjour ! 👋 Je suis votre assistant JustSmartShopping. Comment puis-je vous aider aujourd\'hui ? Je peux vous aider à comparer les prix, trouver des produits, ou répondre à vos questions sur notre programme de récompenses.',
+      content: 'Bonjour ! 👋 Je suis votre assistant JustShoppingSmart. Comment puis-je vous aider aujourd\'hui ? Je peux vous aider à comparer les prix, trouver des produits, ou répondre à vos questions sur notre programme de récompenses.',
       sender: 'bot',
       timestamp: new Date(),
     },
@@ -94,7 +94,7 @@ export function Chatbot() {
                   className="rounded-full shadow-lg flex items-center gap-2 opacity-80 hover:opacity-100 transition-all"
               >
                 <MessageCircle className="h-4 w-4" />
-                Assistant JustSmartShopping
+                SmartChattingBot
               </Button>
             </motion.div>
         )}
@@ -114,7 +114,7 @@ export function Chatbot() {
                       <Bot className="h-4 w-4" />
                     </AvatarFallback>
                   </Avatar>
-                  <SheetTitle className="text-base font-medium">Assistant JustSmartShopping</SheetTitle>
+                  <SheetTitle className="text-base font-medium">Assistant JustShoppingSmart</SheetTitle>
                 </div>
                 <Button
                     variant="ghost"

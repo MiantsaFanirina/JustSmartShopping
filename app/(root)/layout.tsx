@@ -17,8 +17,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-    title: 'JustSmartShopping - Compare Prices & Save',
-    description: 'Find the best deals across the internet. JustSmartShopping compares prices for you, so you can shop smarter and save more.',
+    title: 'JustShoppingSmart - Compare Prices & Save',
+    description: 'Find the best deals across the internet. JustShoppingSmart compares prices for you, so you can shop smarter and save more.',
 };
 
 export default function RootLayout({

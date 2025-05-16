@@ -40,7 +40,7 @@ export default function SignUpPage() {
     try {
       await signUp(name, email, password);
       toast({
-        title: 'Bienvenue sur JustSmartShopping !',
+        title: 'Bienvenue sur JustShoppingSmart !',
         description: 'Votre compte a été créé avec succès.',
       });
       router.push('/profile');
@@ -69,7 +69,7 @@ export default function SignUpPage() {
               </div>
               <h1 className="text-3xl font-bold text-center">Créer un compte</h1>
               <p className="text-muted-foreground mt-2 text-center">
-                Rejoignez JustSmartShopping pour commencer à économiser sur vos achats
+                Rejoignez JustShoppingSmart pour commencer à économiser sur vos achats
               </p>
             </div>
 

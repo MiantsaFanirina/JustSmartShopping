@@ -40,7 +40,7 @@ export default function BlogPage() {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-4xl font-bold mb-4"
             >
-              Blog JustSmartShopping
+              Blog JustShoppingSmart
             </motion.h1>
             <motion.p
                 initial={{ opacity: 0, y: 20 }}

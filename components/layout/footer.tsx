@@ -18,7 +18,7 @@ export function Footer() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <ShoppingBag className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold font-poppins">JustSmartShopping</span>
+                <span className="text-xl font-bold font-poppins">JustShoppingSmart</span>
               </div>
               <p className="text-sm mb-6">
                 Trouvez les meilleures offres sur Internet. Comparez les prix, gagnez des récompenses et achetez plus intelligemment.
@@ -114,7 +114,7 @@ export function Footer() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <Mail size={18} className="text-primary" />
-                  <span className="text-muted-foreground">support@JustSmartShopping.com</span>
+                  <span className="text-muted-foreground">support@JustShoppingSmart.com</span>
                 </li>
               </ul>
             </div>
@@ -123,7 +123,7 @@ export function Footer() {
           <div className="border-t border-border/40 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-sm text-muted-foreground">
-                &copy; {new Date().getFullYear()} JustSmartShopping. Tous droits réservés.
+                &copy; {new Date().getFullYear()} JustShoppingSmart. Tous droits réservés.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
