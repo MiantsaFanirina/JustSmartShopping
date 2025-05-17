@@ -84,7 +84,7 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/cart" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Link href="/app/(root)/cart/cart" className="text-muted-foreground hover:text-primary transition-colors">
                     Panier
                   </Link>
                 </li>

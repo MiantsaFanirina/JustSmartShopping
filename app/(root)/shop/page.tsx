@@ -7,8 +7,9 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Slider } from '@/components/ui/slider';
-import { ProductCard } from '@/components/shop/product-card';
+import { ProductCard } from '@/components/shop/productCard';
 import { PRODUCTS, CATEGORIES } from '@/lib/mock-data';
+import useCartStore from "@/store/cart-store";
 
 export default function ShopPage() {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
@@ -16,6 +17,9 @@ export default function ShopPage() {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
   const [searchQuery, setSearchQuery] = useState('');
+
+  const cartStore = useCartStore();
+  console.log(cartStore)
 
   const filteredProducts = PRODUCTS.filter((product) => {
     const matchesCategory = selectedCategory === 'all' || product.category === selectedCategory;

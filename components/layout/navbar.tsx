@@ -21,7 +21,6 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { useTheme } from 'next-themes';
-import { motion, AnimatePresence } from 'framer-motion';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -31,6 +30,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { Badge } from '@/components/ui/badge';
+import useCartStore from "@/store/cart-store";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -47,7 +47,8 @@ export function Navbar() {
   } : null;
 
   // Mock cart count
-  const cartItemCount = 3;
+  const {items} = useCartStore()
+  const cartItemCount = items.length;
 
   useEffect(() => {
     const handleScroll = () => {

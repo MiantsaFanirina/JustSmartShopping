@@ -6,7 +6,7 @@ import {Button} from "@/components/ui/button";
 import {ArrowRight} from "lucide-react";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import {PRODUCTS} from "@/lib/mock-data";
-import {ProductCard} from "@/components/shop/product-card";
+import {ProductCard} from "@/components/shop/productCard";
 import {fadeIn, staggerContainer} from "@/features/landing/animation";
 
 const FeaturedDeals = () => {

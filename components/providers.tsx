@@ -18,7 +18,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider attribute="class" defaultTheme="light">
-        <AnimatePresence mode="wait">{children}</AnimatePresence>
+        <AnimatePresence>{children}</AnimatePresence>
       </ThemeProvider>
     </QueryClientProvider>
   );
