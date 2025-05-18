@@ -40,19 +40,19 @@ export default function CartPage() {
             <div className="border-t pt-6 space-y-2 text-sm text-muted-foreground">
                 <div className="flex justify-between">
                     <span>Sous-total</span>
-                    <span>{formatPrice(subtotal)}</span>
+                    <span>{formatPrice(subtotal, {currency: "EUR"})}</span>
                 </div>
                 <div className="flex justify-between">
                     <span>TVA (8.5%)</span>
-                    <span>{formatPrice(tax)}</span>
+                    <span>{formatPrice(tax, {currency: "EUR"})}</span>
                 </div>
                 <div className="flex justify-between">
                     <span>Frais de livraison</span>
-                    <span>{formatPrice(shipping)}</span>
+                    <span>{formatPrice(shipping, {currency: "EUR"})}</span>
                 </div>
                 <div className="flex justify-between text-base font-medium text-foreground">
                     <span>Total</span>
-                    <span>{formatPrice(total)}</span>
+                    <span>{formatPrice(total, {currency: "EUR"})}</span>
                 </div>
                 <div className="text-xs italic">
                     Points de fidélité gagnés : <strong>{rewardPointsEarned}</strong>

@@ -7,8 +7,13 @@ import { motion } from 'framer-motion';
 import { Heart, BarChart2, ShoppingCart, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import { formatPrice, getDiscountPercentage } from '@/lib/utils';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
+import {formatPrice, getDiscountPercentage} from '@/lib/utils';
 import { ComparedProduct } from '@/store/compare-store';
 import useCartStore from '@/store/cart-store';
 
@@ -21,15 +26,11 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   const addItem = useCartStore((state) => state.addItem);
 
-  // Get the best vendor (first in the list)
   const bestVendor = product.vendors[0];
-
-  // Calculate discount percentage if there's an original price
   const discountPercentage = bestVendor.originalPrice
       ? getDiscountPercentage(bestVendor.originalPrice, bestVendor.price)
       : 0;
 
-  // Handle adding to cart
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -66,27 +67,21 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
             />
 
             {discountPercentage > 0 && (
-                <Badge
-                    variant="destructive"
-                    className="absolute top-2 left-2 z-10"
-                >
+                <Badge variant="destructive" className="absolute top-2 left-2 z-10">
                   {discountPercentage}% de réduction
                 </Badge>
             )}
 
-            <Badge
-                className="absolute top-2 right-2 compare-badge"
-            >
+            <Badge className="absolute top-2 right-2 compare-badge">
               {product.vendors.length} vendeurs
             </Badge>
 
-            <div className={`absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity duration-300 ${
-                isHovered ? 'opacity-100' : 'opacity-0'
-            }`}>
-              <Button
-                  onClick={handleAddToCart}
-                  className="mx-2"
-              >
+            <div
+                className={`absolute inset-0 bg-black/40 flex items-center justify-center transition-opacity duration-300 ${
+                    isHovered ? 'opacity-100' : 'opacity-0'
+                }`}
+            >
+              <Button onClick={handleAddToCart} className="mx-2">
                 <ShoppingCart className="mr-2 h-4 w-4" />
                 Ajouter au panier
               </Button>
@@ -101,11 +96,11 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
             <div className="flex items-center justify-between mb-3">
               <div className="flex flex-col">
               <span className="font-semibold text-lg">
-                {formatPrice(bestVendor.price)}
+                {formatPrice(bestVendor.price, { currency: 'EUR' })}
               </span>
                 {bestVendor.originalPrice && (
                     <span className="text-sm text-muted-foreground line-through">
-                  {formatPrice(bestVendor.originalPrice)}
+                  {formatPrice(bestVendor.originalPrice, { currency: 'EUR' })}
                 </span>
                 )}
               </div>
@@ -149,10 +144,15 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
 
             <div className="flex items-center justify-between">
               <div className="text-sm text-muted-foreground">
-                Meilleur prix chez <span className="font-medium">{bestVendor.name}</span>
+                Meilleur prix chez{' '}
+                <span className="font-medium">{bestVendor.name}</span>
               </div>
 
-              <Button variant="link" size="sm" className="p-0 h-auto font-normal text-primary">
+              <Button
+                  variant="link"
+                  size="sm"
+                  className="p-0 h-auto font-normal text-primary"
+              >
                 Comparer
                 <ArrowRight className="ml-1 h-3 w-3" />
               </Button>
@@ -162,3 +162,4 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
       </motion.div>
   );
 }
+

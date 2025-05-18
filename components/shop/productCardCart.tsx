@@ -47,10 +47,10 @@ export function ProductCardCart({ item }: ProductCardCartProps) {
                     </div>
 
                     <div className="text-right sm:text-left">
-                        <div className="text-base font-semibold">{formatPrice(item.price * item.quantity)}</div>
+                        <div className="text-base font-semibold">{formatPrice(item.price * item.quantity, {currency: "EUR"})}</div>
                         {item.originalPrice && (
                             <div className="text-xs text-muted-foreground line-through">
-                                {formatPrice(item.originalPrice * item.quantity)}
+                                {formatPrice(item.originalPrice * item.quantity, { currency: 'EUR' })}
                             </div>
                         )}
                     </div>

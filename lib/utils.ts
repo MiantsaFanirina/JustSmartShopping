@@ -6,21 +6,22 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatPrice(
-  price: number,
-  options: {
-    currency?: 'USD' | 'EUR' | 'GBP';
-    notation?: Intl.NumberFormatOptions['notation'];
-  } = {}
+    price: number,
+    options: {
+      currency?: 'USD' | 'EUR' | 'GBP';
+      notation?: Intl.NumberFormatOptions['notation'];
+    } = {}
 ) {
   const { currency = 'USD', notation = 'standard' } = options;
 
-  return new Intl.NumberFormat('en-US', {
+  return new Intl.NumberFormat('fr-FR', {
     style: 'currency',
     currency,
     notation,
     maximumFractionDigits: 2,
   }).format(price);
 }
+
 
 export function getDiscountPercentage(originalPrice: number, discountedPrice: number) {
   if (originalPrice <= 0 || discountedPrice >= originalPrice) return 0;
